@@ -14,7 +14,7 @@ function ProdutoCard({ produto, onDelete }) {
         boxShadow: "2px 2px 5px rgba(0,0,0,0.1)",
       }}
     >
-      <h3>⚽ {nomeExibicao}</h3>
+      <h3> {nomeExibicao}</h3>
 
       <div style={{ marginTop: "15px", display: "flex", gap: "10px" }}>
         <Link to={`/editar/${produto.id}`}>
